@@ -1,0 +1,28 @@
+# pipeline outputs: data, token shards, checkpoints, logs, report (23 GB+)
+work/
+work_smoke/
+*.log
+
+# model / data artifacts anywhere else
+*.pt
+*.bin
+*.npy
+*.parquet
+*.safetensors
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# lesson notes (source material, not ours to publish)
+new_lessons_transformers/
+old_lessons_transformers/
